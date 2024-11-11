@@ -1,0 +1,12 @@
+<%# <h2>Coach answer :</h2> %>
+<div class="border-start border-3 p-3 my-2">
+<h3><%= params[:question] %></h3>
+<p>-- You </p>
+</div>
+
+<div class="border-start border-3 p-3 my-3  bg-warning bg-opacity-25">
+<h3><%= @answer %></h3>
+<p>-- Your coach</p>
+</div>
+
+<p><%= link_to 'Ask another question', ask_path %></p>
